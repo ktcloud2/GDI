@@ -22,7 +22,7 @@ const video_domain_for_dl = video_domains_for_dl[Math.floor(Math.random()*video_
 const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN', 'US', 'PK']
 const blocked_asn = []; // add ASN numbers from http://www.bgplookingglass.com/list-of-autonomous-system-numbers, eg. [16509, 12345]
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
+    "siteName": "KT Cloud 02", // Website name
     "client_id": "", // Client id from Google Cloud Console
     "client_secret": "", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
@@ -117,7 +117,7 @@ const uiConfig = {
     "videodomain": video_domain_for_dl, // Ignore this and set domains at top of this page after service accounts.
     "poster": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.1.8/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
     "audioposter": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.1.8/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
-    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/npm/@googledrive/index", // If Project is Forked, then enter your GitHub repo
+    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/ktcloud2/GDI", // If Project is Forked, then enter your GitHub repo
     "render_head_md": true, // Render Head.md
     "render_readme_md": true, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
